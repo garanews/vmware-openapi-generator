@@ -13,7 +13,7 @@ CAMELCASE_SEPARATOR_LIST = [".", "_"]
 
 
 def eprint(*args, **kwargs):
-    print(args, file=sys.stderr, kwargs)
+    print(args)
 
 
 def get_json(url, verify=True):
